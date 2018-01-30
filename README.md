@@ -1,3 +1,6 @@
+#### 补丁说明
+由于Gevent对MySQLDB库不支持，因此采用pymysql库，使用纯python的方式进行异步处理
+
 ####G-Firefly简介+Firefly-Gevent重要迭代版本alpha 0.1.5介绍
 在alpha 0.1.5做了如下的改进：
 １、单node节点断开与root节点的连接后自动重连。

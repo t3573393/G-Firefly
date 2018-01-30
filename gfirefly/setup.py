@@ -28,7 +28,8 @@ setup(name='gfirefly',
 		  "affinity",
 		  "python-memcached",
 		  "MySQL-python",
-                  "gevent-zeromq"
+          "gevent-zeromq",
+          "PyMySQL"
       ],
       entry_points="""
       # -*- Entry points: -*-
